@@ -1,0 +1,18 @@
+hr{
+    width: 500px;
+    margin-left: 0;
+}
+.box1{
+    box-sizing: border-box;
+    width: 500px;
+    background-color: lightcoral;
+    border: 10px solid red;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+.box2{
+    width: 500px;
+    background-color: lightcoral;
+    border: 10px solid red;
+    padding: 50px;
+}

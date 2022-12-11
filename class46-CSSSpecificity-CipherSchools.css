@@ -1,0 +1,33 @@
+/* inline style attribute > id selector > class selector > element selector */
+/* h1{
+    color: green;
+}
+h1.heading{
+    color: magenta ;
+}
+0,0,1,1, ----> 11
+
+.h1class{
+    color: red;
+}
+0,0,1,0
+
+/* #h1id{
+    color: blue;
+} */ 
+div#container ul.my-songs li{
+    color: brown;
+    background-color: yellow;
+}
+/* How to calculate specificity */
+/* 0,1,1,3 ---> 113 */
+
+div#conatiner ul.my-songs li.favourite{
+    color: yellow;
+    background-color: brown;
+}
+ 
+/* 0,0,1,0 ---> 10          --> Old*/
+/* 0,1,2,2 --> 123          --> New */
+
+

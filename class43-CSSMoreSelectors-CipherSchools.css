@@ -1,0 +1,24 @@
+/* *{
+    color: blue;
+} */
+header{
+    background-color: aquamarine;
+}
+section.my-articles{
+    background-color: azure;
+}
+header p{
+    color: red;
+}
+li a{
+    color: green;
+}
+/* section.my-articles h2{
+    color: green;
+} */
+section.my-articles > h2{
+    color: green;
+}
+h2+p{
+    color: orange ;
+}

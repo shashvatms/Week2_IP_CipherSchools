@@ -1,0 +1,16 @@
+/* a{
+    border: 2px solid black;
+    margin: 50px;
+    padding: 50px;
+    height: 100px;
+    width: 100px;
+} */
+a{
+    border: 2px solid black;
+    display:inline-block;
+    margin: 20px;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+
+}

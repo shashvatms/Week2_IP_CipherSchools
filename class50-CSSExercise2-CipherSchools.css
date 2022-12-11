@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+h1{
+    background-color: #cdcdcd;
+    text-align: center;
+    padding: 15px 0px;
+}
+section.about-me, section.about-lilly{
+    border: 2px solid #666;
+    padding: 10px;
+}
+.about-me{
+    margin-bottom: 40px;
+}
+section.h3{
+    text-transform: uppercase;
+    color:#444;
+}
